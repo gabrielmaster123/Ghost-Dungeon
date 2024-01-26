@@ -10,5 +10,4 @@ save = {
     y: 0,
     id: 0
 };
-
-activated = false;
+saved = false;

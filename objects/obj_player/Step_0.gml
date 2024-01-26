@@ -35,12 +35,3 @@ y += dy;
   image_speed = 0;
 } 
 
-// Check collision with save file
-if (place_meeting(x, y, obj_save) && !obj_save.activated) {
-    // Code to execute when player touches the save file for the first time
-    obj_save.sprite_index = spr_save_active;
-    obj_save.image_speed = 0.6;  // Adjust the speed as needed
-
-    // Set the activation flag to true to prevent further activation
-    obj_save.activated = true;
-}
