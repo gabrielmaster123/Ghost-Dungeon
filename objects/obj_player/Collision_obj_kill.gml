@@ -4,4 +4,3 @@ x = save.x;
 y = save.y;
 
 
-obj_ghost.visible = true;
