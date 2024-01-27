@@ -1,5 +1,5 @@
 Little project I am currently working on instead of doing school work
-Will make private as soon as I start working on the story, as I dont want anyone to be able to be spoiled
+This is the public version so I hope I don't spoil you 
 <br/><br/>
 <br/><br/>
 <br/><br/>
