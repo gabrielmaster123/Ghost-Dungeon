@@ -54,10 +54,10 @@
     {"id":{"name":"spr_player_walking_left","path":"sprites/spr_player_walking_left/spr_player_walking_left.yy",},},
     {"id":{"name":"spr_ghost_walking_up","path":"sprites/spr_ghost_walking_up/spr_ghost_walking_up.yy",},},
     {"id":{"name":"spr_save_inactive","path":"sprites/spr_save_inactive/spr_save_inactive.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"testRoom","path":"rooms/testRoom/testRoom.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"testRoom","path":"rooms/testRoom/testRoom.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
