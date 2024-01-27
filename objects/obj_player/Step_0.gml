@@ -35,3 +35,4 @@ y += dy;
   image_speed = 0;
 } 
 
+
