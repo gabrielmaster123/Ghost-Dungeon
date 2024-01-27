@@ -6,3 +6,5 @@ moves_x_r = [];
 moves_y_r = [];
 recording = true;
 visible = false;
+startx = obj_player.x;
+starty = obj_player.y;
