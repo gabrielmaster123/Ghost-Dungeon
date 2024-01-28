@@ -18,16 +18,16 @@ x += dx;
 y += dy;
 
 //animation
- if(right_key){
+ if(dx>0){
   sprite_index = spr_player_walking_right;
   image_speed = 1;
-}else if(left_key){
+}else if(dx<0){
   sprite_index = spr_player_walking_left;
   image_speed = 1;
-}else if(up_key){
+}else if(dy<0){
   sprite_index = spr_player_walking_up;
   image_speed = 1;
-}else if(down_key){
+}else if(dy>0){
   sprite_index = spr_player_walking_down;
   image_speed = 1;
 }else if (dx == 0 && dy == 0) {

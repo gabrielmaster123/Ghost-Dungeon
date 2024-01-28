@@ -10,5 +10,6 @@ save = {
     y: 0,
     id: 0
 };
-saved = false;
+
+
 

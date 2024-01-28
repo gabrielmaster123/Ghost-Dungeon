@@ -77,6 +77,7 @@
     {"roomId":{"name":"rm_dev","path":"rooms/rm_dev/rm_dev.yy",},},
     {"roomId":{"name":"rm_beginning","path":"rooms/rm_beginning/rm_beginning.yy",},},
     {"roomId":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
+
   ],
   "templateType": "game",
   "TextureGroups": [
