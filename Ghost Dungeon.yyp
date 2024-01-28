@@ -77,10 +77,6 @@
     {"roomId":{"name":"rm_dev","path":"rooms/rm_dev/rm_dev.yy",},},
     {"roomId":{"name":"rm_beginning","path":"rooms/rm_beginning/rm_beginning.yy",},},
     {"roomId":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of 1eeba21 (Merge pull request #13 from gabrielmaster123/revert-11-UI-and-mainscreen)
   ],
   "templateType": "game",
   "TextureGroups": [
