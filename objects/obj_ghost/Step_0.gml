@@ -42,3 +42,16 @@ function move_animation(){//current x/y future x/y
 		image_speed = 1;
 	}
 }
+/*//animation
+ if(right_key){
+  
+}else if(left_key){
+  sprite_index = spr_player_walking_left;
+  image_speed = 1;
+}else if(up_key){
+  sprite_index = spr_player_walking_up;
+  image_speed = 1;
+}else if(down_key){
+  sprite_index = spr_player_walking_down;
+  image_speed = 1;
+}*/
