@@ -20,4 +20,16 @@ switch (string_lower(message)) {
 	case "no ufuck you":
 		keyboard_string = "dumbass can't write";
 		break;
+	case "nigga":
+		keyboard_string = "atleast not the hard r";
+		break;
+	case "nigger":
+		keyboard_string = "focking racist";
+		break;
+	case "dave":
+		keyboard_string = "echt scheiss name";
+		break;
+	case "cnotsch":
+		keyboard_string = "you aint gettin' into heaven'";
+		break;
 }
