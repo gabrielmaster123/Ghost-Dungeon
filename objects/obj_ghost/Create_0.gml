@@ -16,4 +16,9 @@ dy=0;
 visible=false;
 save_y = y;
 save_x = x;
-
+//save checkpoint
+save = {
+    x: obj_player.save.x,
+    y: obj_player.save.y,
+    id: obj_player.save.id
+}

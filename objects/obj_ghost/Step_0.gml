@@ -1,15 +1,24 @@
 if(recording){
+	x = -2;
+	y = -2;
 	array_push(moves_x, obj_player.dx);
 	array_push(moves_y, obj_player.dy);
 
 	show_debug_message("R");
 }else if (!recording){
 	if(recording_exists){
+		//check collision with 
 		if(array_length(moves_x)>0){
 			dx = moves_x[0];
 			dy = moves_y[0];
-			x += moves_x[0];
-			y += moves_y[0];
+			if place_meeting(x + dx, y, obj_wall){
+			dx = 0;
+			}
+			if place_meeting(x, y + dy, obj_wall){
+				dy = 0;
+			}
+			x += dx;
+			y += dy;
 			array_insert(moves_x_r, 0, moves_x[0]*-1);
 			array_insert(moves_y_r, 0, moves_y[0]*-1);
 			array_shift(moves_x);
