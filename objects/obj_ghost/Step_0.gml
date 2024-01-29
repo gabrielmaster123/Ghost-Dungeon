@@ -1,8 +1,9 @@
+show_debug_message("X:" + string(save.x) + " Y:"+ string(save.y));
 if(recording){
 	array_push(moves_x, obj_player.dx);
 	array_push(moves_y, obj_player.dy);
 
-	show_debug_message("R");
+	
 }else if (!recording){
 	if(recording_exists){
 		if(array_length(moves_x)>0){
@@ -14,7 +15,7 @@ if(recording){
 			array_insert(moves_y_r, 0, moves_y[0]*-1);
 			array_shift(moves_x);
 			array_shift(moves_y);
-			show_debug_message("P");
+			
 		}else if(array_length(moves_x)<1){
 			array_copy(moves_x, 0, moves_x_r, 0, array_length(moves_x_r));
 			array_copy(moves_y, 0, moves_y_r, 0, array_length(moves_y_r));
@@ -22,6 +23,7 @@ if(recording){
 			moves_y_r = [];
 		}
 	}
+
 }
 
 function move_animation(){//current x/y future x/y
@@ -41,4 +43,5 @@ function move_animation(){//current x/y future x/y
 		sprite_index = spr_ghost_walking_up;
 		image_speed = 1;
 	}
+
 }
