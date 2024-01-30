@@ -6,6 +6,9 @@ var left_key = keyboard_check(ord("A"));
 dx = (right_key - left_key) * move_spd;
 dy = (down_key - up_key) * move_spd;
 
+// Get the currently logged in user name
+var user_name = environment_get_variable("USERNAME");
+
 //check collision with walls
 if place_meeting(x + dx, y, obj_wall){
 	dx = 0;
