@@ -1,23 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (place_meeting(x, y, obj_player) || place_meeting(x, y, obj_ghost)) {
-    pressed = true;  // Set pressed to true when touching either obj_player or obj_ghost
+if (place_meeting(x, y, obj_player) || place_meeting(x, y, obj_ghost) || place_meeting(x, y, obj_pushable_box)) {
+    interact_id.active = false; 
 } else {
-    pressed = false; // Set pressed to false when not touching any of the objects
+    interact_id.active = true; 
 }
 
-switch (function_id) {
-    case 1:
-    if(pressed){
-        interact_id.x = -2;
-        interact_id.y = -2; 
-    }else{
-        interact_id.x = origin_x;
-        interact_id.y = origin_y;
-    }
-        break;
-}
 
 
 

@@ -1,15 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_save",
+  "%Name":"obj_pushable_box",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_save",
+  "name":"obj_pushable_box",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_save_inactive",
-    "path":"sprites/spr_save_inactive/spr_save_inactive.yy",
+    "name":"spr_pushable_box",
+    "path":"sprites/spr_pushable_box/spr_pushable_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,
