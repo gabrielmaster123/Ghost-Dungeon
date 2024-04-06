@@ -3,8 +3,8 @@
 
 
 if (place_meeting(x, y, obj_player)) {
-   interact_id.active = !interact_id.active;
-}
+        pressed = !pressed;
+    }
 
 
 

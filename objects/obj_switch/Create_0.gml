@@ -8,9 +8,5 @@ origin_x = interact_id.x;
 image_index = 1;
 image_speed = 0;
 
-
-
-
-
-
+pressed = true;
 

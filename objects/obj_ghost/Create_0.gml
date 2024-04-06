@@ -3,6 +3,8 @@ moves_x = [];
 moves_x_r = [];
 moves_y = [];
 moves_y_r = [];
+interactions = [];
+interactions_r = [];
 startx = 0;
 starty = 0;
 move_spd = 1;
@@ -22,3 +24,4 @@ save = {
     y: obj_player.save.y,
     id: obj_player.save.id
 }
+

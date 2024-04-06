@@ -4,7 +4,12 @@ if(recording){
 	y = -2;
 	array_push(moves_x, obj_player.dx);
 	array_push(moves_y, obj_player.dy);
-
+	if(keyboard_check_pressed(ord("E"))){
+		array_push(interactions, true);
+		show_debug_message("true");
+	}else{
+		array_push(interactions, false);
+	}
 	
 }else if (!recording){
 	if(recording_exists){
@@ -30,6 +35,22 @@ if(recording){
 			array_copy(moves_y, 0, moves_y_r, 0, array_length(moves_y_r));
 			moves_x_r = [];
 			moves_y_r = [];
+		} 
+		
+		if(array_length(interactions) > 0){
+			// Check the recorded interaction
+			var recorded_interaction = interactions[0];
+			if(recorded_interaction){
+				var switch_instance = instance_place(x, y, obj_switch);
+				if (switch_instance != noone) {
+					switch_instance.pressed = !switch_instance.pressed;
+				}
+			}
+			array_insert(interactions_r, 0, recorded_interaction * -1);
+			array_shift(interactions);
+		} else {
+			array_copy(interactions, 0, interactions_r, 0, array_length(interactions_r));
+			interactions_r = [];
 		}
 	}
 
