@@ -30,6 +30,7 @@
   "properties":[
     {"$GMObjectProperty":"","%Name":"function_id","filters":[],"listItems":[],"multiselect":false,"name":"function_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"","%Name":"pressed","filters":[],"listItems":[],"multiselect":false,"name":"pressed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"","%Name":"interact_id","filters":[],"listItems":[],"multiselect":false,"name":"interact_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"inst_64179686","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
