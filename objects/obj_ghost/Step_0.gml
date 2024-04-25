@@ -1,4 +1,4 @@
-show_debug_message("X:" + string(save.x) + " Y:"+ string(save.y));
+
 if(recording){
 	x = -2;
 	y = -2;
